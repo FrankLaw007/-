@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>财富自由的密码</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* 自定义字体，如果需要的话可以替换为其他字体 */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800 antialiased">
+    <header class="bg-white shadow-md py-4 px-6 md:px-10 lg:px-20">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-indigo-600 rounded-md p-2 hover:bg-indigo-50 transition duration-300">罗凡的空间</a>
+            <ul class="flex space-x-4 md:space-x-8">
+                <li><a href="#about" class="text-gray-600 hover:text-indigo-600 transition duration-300 font-medium rounded-md p-2 hover:bg-gray-50">关于我</a></li>
+                <li><a href="#skills" class="text-indigo-600 font-bold transition duration-300 font-medium rounded-md p-2 bg-gray-50">技能</a></li>
+                <li><a href="#contact" class="text-gray-600 hover:text-indigo-600 transition duration-300 font-medium rounded-md p-2 hover:bg-gray-50">联系我</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="relative bg-gradient-to-r from-indigo-500 to-purple-600 text-white py-20 md:py-32 flex items-center justify-center min-h-screen-1/2">
+        <div class="container mx-auto text-center px-4">
+            <div class="flex flex-col items-center justify-center">
+                <img src="https://placehold.co/150x150/667EEA/FFFFFF?text=您的头像" alt="您的头像" class="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white shadow-lg mb-6 object-cover">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 leading-tight">
+                    你好，我是 <span class="text-yellow-300">罗凡</span>
+                </h1>
+                <p class="text-lg md:text-xl lg:text-2xl max-w-2xl mx-auto mb-8 opacity-90">
+                    一位充满热情的自由设计师，致力于创造有意义的事物，如果你也是一个热爱自由的老铁。
+                </p>
+                <a href="#contact" class="bg-white text-indigo-600 hover:bg-indigo-100 px-8 py-3 rounded-full text-lg font-semibold shadow-lg transition duration-300 transform hover:scale-105">
+                    联系我：0872-3121120
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-6 md:px-10 lg:px-20">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">关于我</h2>
+            <div class="max-w-3xl mx-auto text-lg leading-relaxed text-gray-700 space-y-6">
+                <p>
+                    自由设计师介绍文案
+                    作为一名充满激情和创意的自由设计师，我致力于将每一个灵感转化为独特且富有表现力的视觉作品。无论是品牌标识设计、网页界面还是平面广告，我都坚持以客户需求为核心，结合现代设计趋势，打造既美观又实用的设计方案。
+                </p>
+                <p>
+                    拥有多年的设计经验和丰富的跨行业项目背景，我善于沟通与协作，能够快速理解客户的品牌理念和市场定位，确保每一件作品都能精准传达品牌价值。我的设计风格多样，灵活应对不同风格和媒介需求，力求每个项目都能焕发独特魅力。
+                </p>
+                <p>
+                    选择我，您将获得专业、高效且富有创意的设计服务，助力您的品牌在激烈的市场竞争中脱颖而出。
+                </p>
+                <p>
+                    我热衷于学习新事物，并且喜欢探索技术与艺术的结合。在业余时间，我喜欢阅读、旅行和摄影。我相信通过不断学习和实践，我们可以创造出更美好的世界。
+                </p>
+                <p>
+                    我的目标是帮助努力实现自由，自由无价！
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-6 md:px-10 lg:px-20">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">我的核心技能</h2>
+            <div id="skill-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="skill-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-1 cursor-pointer" data-skill="philosophy">
+                    <h3 class="text-xl font-semibold text-indigo-600 mb-3">哲学思维</h3>
+                    <p class="text-gray-600">批判性思维、逻辑推理、伦理决策、问题溯源</p>
+                </div>
+                <div class="skill-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-1 cursor-pointer" data-skill="finance">
+                    <h3 class="text-xl font-semibold text-indigo-600 mb-3">金融知识</h3>
+                    <p class="text-gray-600">投资分析、市场洞察、风险管理、财务规划</p>
+                </div>
+                <div class="skill-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-1 cursor-pointer" data-skill="social-research">
+                    <h3 class="text-xl font-semibold text-indigo-600 mb-3">社会研究</h3>
+                    <p class="text-gray-600">定性/定量研究、数据收集、行为模式分析、政策影响评估</p>
+                </div>
+                <div class="skill-card bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 transform hover:-translate-y-1 cursor-pointer" data-skill="comprehensive-analysis">
+                    <h3 class="text-xl font-semibold text-indigo-600 mb-3">综合分析</h3>
+                    <p class="text-gray-600">跨领域整合、复杂问题解决、战略规划、决策支持</p>
+                </div>
+            </div>
+
+            <div id="philosophy-details" class="skill-details hidden max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-md mt-8">
+                <h3 class="text-3xl font-bold text-indigo-600 mb-6">哲学培训详情</h3>
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    通过系统的哲学培训，我掌握了批判性思维、严谨的逻辑推理和深入的伦理决策能力。我善于从根本上审视问题，追溯其核心本质，并运用哲学框架进行多角度分析，从而形成全面而深刻的见解。这使我能够在复杂情境中保持清晰的头脑，做出明智的判断。
+                    <br><br>
+                    具体能力包括：
+                    <ul>
+                        <li>- 深入分析复杂概念和论证结构。</li>
+                        <li>- 识别并挑战潜在的假设和偏见。</li>
+                        <li>- 运用伦理原则指导决策过程。</li>
+                        <li>- 从宏观视角理解问题，并探寻其深层原因。</li>
+                    </ul>
+                </p>
+                <button class="back-to-skills bg-indigo-600 text-white px-6 py-2 rounded-md hover:bg-indigo-700 transition duration-300">返回技能列表</button>
+            </div>
+
+            <div id="finance-details" class="skill-details hidden max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-md mt-8">
+                <h3 class="text-3xl font-bold text-indigo-600 mb-6">金融知识详情</h3>
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    我具备扎实的金融知识，涵盖投资分析、市场动态洞察、风险管理和个人/企业财务规划。我能够解读经济数据，评估投资机会，并制定有效的风险控制策略。无论是宏观经济趋势还是微观市场行为，我都能进行深入分析，为财务决策提供有力支持。
+                    <br><br>
+                    具体能力包括：
+                    <ul>
+                        <li>- 进行股票、债券、基金等多种金融产品的投资分析。</li>
+                        <li>- 识别并量化市场风险，制定对冲策略。</li>
+                        <li>- 编制和分析财务报表，评估企业健康状况。</li>
+                        <li>- 提供个性化的财务规划建议，实现财富增值。</li>
+                    </ul>
+                </p>
+                <button class="back-to-skills bg-indigo-600 text-white px-6 py-2 rounded-md hover:bg-indigo-700 transition duration-300">返回技能列表</button>
+            </div>
+
+            <div id="social-research-details" class="skill-details hidden max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-md mt-8">
+                <h3 class="text-3xl font-bold text-indigo-600 mb-6">社会研究详情</h3>
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    在社会研究方面，我精通定性与定量研究方法，能够设计并执行调查、访谈和数据收集。我擅长分析复杂的社会现象，理解人类行为模式，并运用社会学理论解释其背后的动因。这使我能够为政策制定和社会干预提供基于证据的洞察。
+                    <br><br>
+                    具体能力包括：
+                    <ul>
+                        <li>- 设计和实施问卷调查、焦点小组和深度访谈。</li>
+                        <li>- 运用统计软件分析定量数据，识别趋势和关联。</li>
+                        <li>- 撰写研究报告，清晰呈现研究发现和政策建议。</li>
+                        <li>- 评估社会项目和政策的有效性及影响。</li>
+                    </ul>
+                </p>
+                <button class="back-to-skills bg-indigo-600 text-white px-6 py-2 rounded-md hover:bg-indigo-700 transition duration-300">返回技能列表</button>
+            </div>
+
+            <div id="comprehensive-analysis-details" class="skill-details hidden max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-md mt-8">
+                <h3 class="text-3xl font-bold text-indigo-600 mb-6">综合分析详情</h3>
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    我具备卓越的综合分析能力，能够整合来自不同领域（如哲学、金融、社会学）的信息，进行跨学科的思考。我擅长从海量数据中提炼关键洞察，识别复杂系统中的相互关联，并在此基础上形成战略性解决方案。这种能力使我能够有效地解决多维度的复杂问题，并支持高层决策。
+                    <br><br>
+                    具体能力包括：
+                    <ul>
+                        <li>- 整合不同来源和类型的信息，形成全面视图。</li>
+                        <li>- 识别复杂问题中的核心要素和相互作用。</li>
+                        <li>- 运用系统思维进行问题诊断和解决方案设计。</li>
+                        <li>- 评估不同方案的潜在影响，并提供优化建议。</li>
+                    </ul>
+                </p>
+                <button class="back-to-skills bg-indigo-600 text-white px-6 py-2 rounded-md hover:bg-indigo-700 transition duration-300">返回技能列表</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-6 md:px-10 lg:px-20">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">联系我</h2>
+            <div class="max-w-xl mx-auto bg-gray-50 p-8 rounded-lg shadow-md">
+                <p class="text-center text-lg text-gray-700 mb-6">
+                    如果您有任何问题或合作意向，欢迎通过以下方式联系我：
+                </p>
+                <div class="flex flex-col space-y-4">
+                    <a href="mailto:leetian0027@gmail.com" class="flex items-center justify-center bg-indigo-600 text-white px-6 py-3 rounded-md text-lg font-semibold hover:bg-indigo-700 transition duration-300 transform hover:scale-105">
+                        <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-18 4v7a2 2 0 002 2h14a2 2 0 002-2v-7m-18 0l-2-2m20 2l-2-2"></path></svg>
+                        leetian0027@gmail.com
+                    </a>
+                    <a href="https://linkedin.com/in/您的领英ID" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center bg-blue-700 text-white px-6 py-3 rounded-md text-lg font-semibold hover:bg-blue-800 transition duration-300 transform hover:scale-105">
+                        <svg class="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        我的主页
+                    </a>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto text-center px-4">
+            <p>&copy; 2025 罗凡. 保留所有权利。</p>
+            <p class="text-sm mt-2">使用 Tailwind CSS 构建</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // 获取所有技能卡片和详情区域
+            const skillCards = document.querySelectorAll('.skill-card');
+            const skillDetails = document.querySelectorAll('.skill-details');
+            const skillList = document.getElementById('skill-list');
+            const backButtons = document.querySelectorAll('.back-to-skills');
+
+            // 隐藏所有技能详情区域
+            function hideAllSkillDetails() {
+                skillDetails.forEach(detail => {
+                    detail.classList.add('hidden');
+                });
+            }
+
+            // 显示技能列表并隐藏所有详情
+            function showSkillList() {
+                skillList.classList.remove('hidden');
+                hideAllSkillDetails();
+            }
+
+            // 为每个技能卡片添加点击事件监听器
+            skillCards.forEach(card => {
+                card.addEventListener('click', function() {
+                    const skillId = this.dataset.skill; // 获取data-skill属性的值
+                    hideAllSkillDetails(); // 隐藏所有详情
+                    skillList.classList.add('hidden'); // 隐藏技能列表
+
+                    // 显示对应的技能详情区域
+                    const targetDetail = document.getElementById(`${skillId}-details`);
+                    if (targetDetail) {
+                        targetDetail.classList.remove('hidden');
+                    }
+                });
+            });
+
+            // 为每个返回按钮添加点击事件监听器
+            backButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    showSkillList(); // 显示技能列表
+                });
+            });
+
+            // 初始状态：确保技能列表可见，所有详情隐藏
+            showSkillList();
+        });
+    </script>
+</body>
+</html>
